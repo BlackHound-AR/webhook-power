@@ -1,0 +1,9 @@
+# Configuración del plugin
+config:
+  webhookUrl: "https://n8n.luzdelossiglos.org.ar/webhook-test/af8b6014-368e-4acb-9b04-225aebd63a72"
+  notificationIntervalMinutes: 30
+
+# Mensajes del webhook
+messages:
+  playerConnected: "¡El jugador %player% se ha conectado! Total de jugadores: %playerCount%"
+  emptyServer: "El servidor está vacío desde hace %emptyServerTime% minutos."
